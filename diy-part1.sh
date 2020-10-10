@@ -21,11 +21,6 @@ sed -i '$a src-git jerryk https://github.com/jerrykuku/openwrt-package' feeds.co
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 
-rm -rf package/lean/v2ray-plugin
-rm -rf package/lean/v2ray
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/v2ray-plugin package/lean/v2ray-plugin
-svn co https://github.com/xiaorouji/openwrt-package/trunk/package/v2ray package/lean/v2ray
-
 rm -rf feeds/packages/net/smartdns
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns package/net/smartdns	
 
