@@ -20,7 +20,6 @@ git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic.git pa
 git clone https://github.com/Lienol/openwrt-package.git package/lienol
 git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/adguardhome
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/tty228/luci-app-serverchan.git package/serverchan
 git clone https://github.com/skyformat99/eqos.git package/eqos
 git clone https://github.com/frainzy1477/luci-app-clash.git package/clash
